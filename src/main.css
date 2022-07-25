@@ -1,0 +1,36 @@
+.main {
+	position: relative;
+	background: var(--color-black);
+	overflow: hidden;
+	padding-top: 80px;
+	height: 800px;
+}
+
+.main .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main__title {
+	font-weight: 500;
+	font-size: 200px;
+	line-height: 180px;
+	color: var(--color-white);
+	max-width: 917px;
+	margin-bottom: 56px;
+	text-align: center;
+}
+
+.button {
+	z-index: 2;
+}
+
+.main__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}

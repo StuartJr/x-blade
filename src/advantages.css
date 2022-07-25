@@ -1,0 +1,28 @@
+.advantages {}
+
+.advantages .title {
+	padding-bottom: 64px;
+}
+
+.advantages__wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 20px;
+}
+
+.advantages__title {
+	margin: 24px 0 8px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	color: var(--color-text);
+	text-align: center;
+}
+
+.advantages__desc {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: var(--color-grey);
+}

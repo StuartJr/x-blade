@@ -1,0 +1,33 @@
+.video {
+	padding: 126px 0;
+}
+
+.video__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.video__content {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 380px;
+}
+
+.video__title {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 72px;
+	color: var(--color-black);
+	margin-bottom: 16px;
+
+}
+
+.video__desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: var(--color-text);
+	margin-bottom: 32px;
+}

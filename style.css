@@ -1,0 +1,28 @@
+:root {
+  --color-grey: #ACACAC;
+	--color-white: #FFFFFF;
+	--color-main: #F52D2D;
+	--color-black: #181818;
+	--color-text: #393939;
+	--color-green: #6A7870;
+	--color-cream: #E8DFC8;
+}
+
+body {
+	font-family: 'Ubuntu';
+	font-style: normal;
+}
+
+.container {
+	width: 100%;
+	max-width: 1220px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 72px;
+	color: var(--color-black);
+}
