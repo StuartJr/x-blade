@@ -6,6 +6,9 @@
 	--color-text: #393939;
 	--color-green: #6A7870;
 	--color-cream: #E8DFC8;
+	--color-btn-hover: #D61F1F;
+	--color-btn-active: #B10E0E;
+	--color-violet: #7014E8;
 }
 
 body {

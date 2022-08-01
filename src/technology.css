@@ -1,9 +1,9 @@
 .technology {
-	padding: 126px 0;
+	margin: 126px 0;
 }
 
 .technology .title {
-	padding-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 .technology__items {
@@ -44,4 +44,16 @@
 	font-size: 14px;
 	line-height: 22px;
 	color: var(--color-grey);
+}
+
+.technology__store {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 40px;
+	bottom: 32px;
+}
+
+.technology__store-item:first-child {
+	margin-right: 16px;
 }

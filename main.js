@@ -7,6 +7,10 @@ import './src/main.css';
 import './src/advantages.css';
 import './src/video.css';
 import './src/technology.css';
+import './src/reviews.css';
+import './src/characteristics.css';
+import './src/selection.css';
+import './src/footer.css';
 
 
 import './assets/src/logo.svg';
