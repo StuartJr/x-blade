@@ -7,6 +7,60 @@
     <title>Vite App</title>
   </head>
   <body>
+    <div class="mobile-menu">
+      <div class="mobile-menu__header">
+        <p class="mobile-menu__title">Меню</p>
+        <button class="mobile-menu__close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 6L6 18"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 6L18 18"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Обзор</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Преимущества</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Технологии</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Отзывы</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Характеристика</a>
+        </li>
+      </ul>
+			<a href="tel: 79199149511" class="header__contact-link">
+				<img
+					src="./assets/src/phone.svg"
+					alt="phone"
+					class="header__contact-svg"
+				/>
+				<span class="header__contact-number">+7 (919) 914-95-11</span>
+			</a>
+    </div>
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
@@ -45,6 +99,13 @@
               />
               <span class="header__contact-number">+7 (919) 914-95-11</span>
             </a>
+            <button class="header__burger">
+              <img
+                src="./assets/src/menu.svg"
+                alt="button"
+                class="header__burger-btn"
+              />
+            </button>
           </div>
         </div>
       </div>

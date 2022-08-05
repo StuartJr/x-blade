@@ -1,11 +1,30 @@
 .advantages .title {
-	margin-bottom: 64px;
+	margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+	.advantages .title {
+		margin-bottom: 48px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.advantages .title {
+		margin-bottom: 64px;
+	}
 }
 
 .advantages__wrapper {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	column-gap: 20px;
+	overflow: auto;
+}
+
+@media screen and (min-width: 1280px) {
+	.advantages__wrapper {
+		overflow: visible;
+	}
 }
 
 .advantages__title {
@@ -23,4 +42,16 @@
 	line-height: 22px;
 	text-align: center;
 	color: var(--color-grey);
+}
+
+.advantages__img {
+	width: 248px;
+	height: 320px;
+}
+
+@media screen and (min-width: 768px) {
+	.advantages__img {
+		width: 280px;
+		height: 360px;
+	}
 }
